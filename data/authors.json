@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "name": "Matt Haig",
+    "bio": "British author known for exploring life's big questions through imaginative storytelling. His works blend philosophical depth with accessible prose.",
+    "image": "/authors/matt-haig.jpg",
+    "followers": 245000,
+    "website": "matthaig.com",
+    "twitter": "@matthaig1",
+    "instagram": "@matthaig1",
+    "books": ["1"]
+  },
+  {
+    "id": "2",
+    "name": "Andy Weir",
+    "bio": "Science fiction author celebrated for technical accuracy and humor. Known for writing about ordinary people in extraordinary situations.",
+    "image": "/authors/andy-weir.jpg",
+    "followers": 567000,
+    "website": "andyweirauthor.com",
+    "twitter": "@andyweirauthor",
+    "instagram": "@andyweirauthor",
+    "books": ["2"]
+  },
+  {
+    "id": "3",
+    "name": "James Clear",
+    "bio": "Author and entrepreneur focused on habits, systems, and human performance. His research-driven approach has helped millions improve their lives.",
+    "image": "/authors/james-clear.jpg",
+    "followers": 890000,
+    "website": "jamesclear.com",
+    "twitter": "@JamesClear",
+    "instagram": "@jamesclear",
+    "books": ["3"]
+  },
+  {
+    "id": "4",
+    "name": "Koyoharu Gotouge",
+    "bio": "Japanese manga artist known for creating Demon Slayer. Gotouge's work combines stunning artwork with compelling storytelling.",
+    "image": "/authors/gotouge.jpg",
+    "followers": 2340000,
+    "website": "shueisha.co.jp",
+    "twitter": "@GO_GOTOUGE",
+    "instagram": null,
+    "books": ["4"]
+  },
+  {
+    "id": "5",
+    "name": "Chugong",
+    "bio": "Korean author behind the hit manhwa Solo Leveling. Known for innovative world-building and character development in the webtoon industry.",
+    "image": "/authors/chugong.jpg",
+    "followers": 1567000,
+    "website": null,
+    "twitter": null,
+    "instagram": null,
+    "books": ["5"]
+  },
+  {
+    "id": "6",
+    "name": "F. Scott Fitzgerald",
+    "bio": "American author and novelist of the Jazz Age. Fitzgerald's works capture the complexity and decadence of the 1920s era.",
+    "image": "/authors/fitzgerald.jpg",
+    "followers": 432000,
+    "website": null,
+    "twitter": null,
+    "instagram": null,
+    "books": ["6"]
+  },
+  {
+    "id": "7",
+    "name": "Daniel Goleman",
+    "bio": "Psychologist and author who popularized the concept of emotional intelligence. His research has shaped modern understanding of human potential.",
+    "image": "/authors/goleman.jpg",
+    "followers": 234000,
+    "website": "danielgoleman.info",
+    "twitter": "@DanielGoleman",
+    "instagram": null,
+    "books": ["7"]
+  },
+  {
+    "id": "8",
+    "name": "Gege Akutami",
+    "bio": "Japanese manga artist creating Jujutsu Kaisen. Known for intricate plot design and stylish character artistry.",
+    "image": "/authors/akutami.jpg",
+    "followers": 1890000,
+    "website": null,
+    "twitter": "@gege_akutami",
+    "instagram": null,
+    "books": ["8"]
+  },
+  {
+    "id": "9",
+    "name": "Frank Herbert",
+    "bio": "Science fiction author who created Dune, one of the most influential science fiction novels ever written.",
+    "image": "/authors/frank-herbert.jpg",
+    "followers": 567000,
+    "website": null,
+    "twitter": null,
+    "instagram": null,
+    "books": ["9"]
+  },
+  {
+    "id": "10",
+    "name": "Sun Tzu",
+    "bio": "Ancient Chinese military strategist whose work 'The Art of War' remains relevant after over 2,000 years.",
+    "image": "/authors/sun-tzu.jpg",
+    "followers": 345000,
+    "website": null,
+    "twitter": null,
+    "instagram": null,
+    "books": ["10"]
+  }
+]

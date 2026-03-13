@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Demon Slayer",
+    "description": "Follow Tanjiro Kamado's journey to become a Demon Slayer and save his sister Nezuko from her demonic curse. An epic tale of determination and sisterly love.",
+    "author": "Koyoharu Gotouge",
+    "authorId": "4",
+    "totalBooks": 23,
+    "currentBooks": 1,
+    "type": "manga",
+    "status": "completed",
+    "image": "/series/demon-slayer.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Solo Leveling",
+    "description": "An action-packed manhwa about a hunter who gains the ability to level up like a video game character. Watch as Sung Jinwoo becomes increasingly powerful.",
+    "author": "Chugong",
+    "authorId": "5",
+    "totalBooks": 1,
+    "currentBooks": 1,
+    "type": "manhwa",
+    "status": "completed",
+    "image": "/series/solo-leveling.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Jujutsu Kaisen",
+    "description": "When Yuji Itadori swallows a cursed finger, he becomes the host for a powerful demon. Join him at Tokyo Jujutsu High as he learns to master his new power.",
+    "author": "Gege Akutami",
+    "authorId": "8",
+    "totalBooks": 20,
+    "currentBooks": 1,
+    "type": "manga",
+    "status": "ongoing",
+    "image": "/series/jjk.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Dune",
+    "description": "The epic saga of the desert planet Arrakis, its precious spice, and the political intrigue surrounding the most valuable substance in the universe.",
+    "author": "Frank Herbert",
+    "authorId": "9",
+    "totalBooks": 6,
+    "currentBooks": 1,
+    "type": "science-fiction",
+    "status": "ongoing",
+    "image": "/series/dune.jpg"
+  }
+]
