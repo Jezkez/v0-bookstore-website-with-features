@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Facebook, Twitter, Instagram, Youtube, Music2, Pinterest } from 'lucide-react'
+import { Facebook, Twitter, Instagram, Youtube, Music2, Share2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export function Footer() {
@@ -109,7 +109,7 @@ export function Footer() {
               </Button>
               <Button variant="ghost" size="icon" asChild>
                 <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" title="Pinterest">
-                  <Pinterest className="w-5 h-5" />
+                  <Share2 className="w-5 h-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>

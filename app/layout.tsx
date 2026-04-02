@@ -1,10 +1,7 @@
-'use client'
-
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
-import { ThemeProvider } from '@/context/ThemeContext'
-import { CartProvider } from '@/context/CartContext'
+import { Providers } from '@/components/Providers'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
@@ -31,6 +28,23 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body className="font-sans antialiased">
+        <Providers>
+          {children}
+        </Providers>
+        <Analytics />
+      </body>
+    </html>
+  )
 }
 
 export default function RootLayout({
