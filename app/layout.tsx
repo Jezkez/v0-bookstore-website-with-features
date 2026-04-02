@@ -46,22 +46,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
-  return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="font-sans antialiased">
-        <ThemeProvider>
-          <CartProvider>
-            {children}
-            <Analytics />
-          </CartProvider>
-        </ThemeProvider>
-      </body>
-    </html>
-  )
-}
