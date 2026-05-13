@@ -41,13 +41,12 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
   // Filter and sort books
   const filteredBooks = useMemo(() => {
     let filtered = books.filter(book => {
-      const categoryMatch = book.category === category.id || 
-        (book.subcategory && category.subcategories.some(sc => sc.id === book.subcategory))
+      const categoryMatch = String(book.category) === String(category.id)
       
       const priceMatch = book.price >= priceRange.min && book.price <= priceRange.max
       const conditionMatch = selectedConditions.length === 0 || selectedConditions.includes(book.condition)
       const formatMatch = selectedFormats.length === 0 || selectedFormats.includes(book.format)
-      const languageMatch = selectedLanguages.length === 0 || selectedLanguages.includes(book.language)
+      const languageMatch = selectedLanguages.length === 0 || selectedLanguages.includes(book.language || 'English')
       const ratingMatch = book.rating >= minRating
 
       return categoryMatch && priceMatch && conditionMatch && formatMatch && languageMatch && ratingMatch

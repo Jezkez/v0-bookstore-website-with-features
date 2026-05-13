@@ -72,10 +72,10 @@ export default function Home() {
             <Link
               key={category.id}
               href={`/categories/${category.slug}`}
-              className="group bg-card rounded-lg border border-border p-6 text-center hover:border-primary hover:shadow-lg transition"
+              className="group bg-card rounded-lg border border-border p-6 text-center hover:border-primary hover:shadow-lg transition text-foreground"
             >
               <div className="text-4xl mb-3 group-hover:scale-110 transition">{category.icon}</div>
-              <h3 className="font-bold text-sm mb-1">{category.name}</h3>
+              <h3 className="font-bold text-sm mb-1 text-foreground">{category.name}</h3>
               <p className="text-xs text-muted-foreground">{category.subcategories.length} subcats</p>
             </Link>
           ))}
