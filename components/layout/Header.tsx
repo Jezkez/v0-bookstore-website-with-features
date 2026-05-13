@@ -56,7 +56,7 @@ export function Header() {
               {theme === 'light' ? <Moon className="w-4 h-4" /> : <Sun className="w-4 h-4" />}
             </Button>
             <Button variant="ghost" size="icon" asChild className="hidden sm:inline-flex">
-              <Link href="/wishlist">
+              <Link href="/(community)/wishlist">
                 <span className="sr-only">Wishlist</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -64,13 +64,13 @@ export function Header() {
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild className="hidden sm:inline-flex">
-              <Link href="/cart">
+              <Link href="/(cart)/cart">
                 <ShoppingCart className="w-4 h-4" />
                 <span className="sr-only">Shopping Cart</span>
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild className="hidden sm:inline-flex">
-              <Link href="/account">
+              <Link href="/(account)/account">
                 <User className="w-4 h-4" />
                 <span className="sr-only">My Account</span>
               </Link>
@@ -122,10 +122,10 @@ export function Header() {
           <Link href="/categories/classics" className="text-sm font-medium hover:text-primary transition">
             Classics
           </Link>
-          <Link href="/blog" className="text-sm font-medium hover:text-primary transition">
+          <Link href="/(community)/blog" className="text-sm font-medium hover:text-primary transition">
             Blog
           </Link>
-          <Link href="/help" className="text-sm font-medium hover:text-primary transition">
+          <Link href="/(help)/help" className="text-sm font-medium hover:text-primary transition">
             Help
           </Link>
         </nav>
@@ -142,19 +142,19 @@ export function Header() {
             <Link href="/categories/manhwa" className="text-sm font-medium hover:text-primary transition py-2">
               Manhwa
             </Link>
-            <Link href="/account/wishlist" className="text-sm font-medium hover:text-primary transition py-2">
+            <Link href="/(community)/wishlist" className="text-sm font-medium hover:text-primary transition py-2">
               Wishlist
             </Link>
-            <Link href="/cart" className="text-sm font-medium hover:text-primary transition py-2">
+            <Link href="/(cart)/cart" className="text-sm font-medium hover:text-primary transition py-2">
               Cart
             </Link>
-            <Link href="/account" className="text-sm font-medium hover:text-primary transition py-2">
+            <Link href="/(account)/account" className="text-sm font-medium hover:text-primary transition py-2">
               My Account
             </Link>
-            <Link href="/blog" className="text-sm font-medium hover:text-primary transition py-2">
+            <Link href="/(community)/blog" className="text-sm font-medium hover:text-primary transition py-2">
               Blog
             </Link>
-            <Link href="/help" className="text-sm font-medium hover:text-primary transition py-2">
+            <Link href="/(help)/help" className="text-sm font-medium hover:text-primary transition py-2">
               Help
             </Link>
           </nav>
