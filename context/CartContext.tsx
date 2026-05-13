@@ -22,10 +22,8 @@ const CartContext = createContext<CartContextType | undefined>(undefined)
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([])
-  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    setMounted(true)
     const saved = localStorage.getItem('cart')
     if (saved) {
       try {
@@ -37,10 +35,8 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   }, [])
 
   useEffect(() => {
-    if (mounted) {
-      localStorage.setItem('cart', JSON.stringify(items))
-    }
-  }, [items, mounted])
+    localStorage.setItem('cart', JSON.stringify(items))
+  }, [items])
 
   const addItem = (bookId: string, quantity: number, price: number) => {
     setItems(prev => {
